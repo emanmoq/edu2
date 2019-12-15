@@ -4236,6 +4236,15 @@ background-color:black;
     opacity: .5;
 }
 @media(min-width:768px) and (max-width:1024px){
+    .navbar {
+        background-color: white;
+            }
+            .navMenu .nav-link{
+                color:black;
+            }
+            .nav-link::before{
+                display: none;
+            }
     .studentsCarusel{
         width:100%;
     }
@@ -4295,6 +4304,18 @@ background-color:black;
     }
 }
 @media (max-width:767px){
+    #innerbaner{
+        padding: 120px 0 16px;
+    }
+    .navbar {
+        background-color: white;
+            }
+            .navMenu .nav-link{
+                color:black;
+            }
+            .nav-link::before{
+                display: none;
+            }
     .studentsCarusel{
         width:100%;
     }
@@ -4528,6 +4549,18 @@ h3{
 }
 }
 @media (max-width:400px){
+    #innerbaner{
+        padding: 120px 0 16px;
+    }
+    .navbar {
+        background-color: white;
+            }
+            .navMenu .nav-link{
+                color:black;
+            }
+            .nav-link::before{
+                display: none;
+            }
     .lang .publicbtn{
 padding:7px 8px;
     }
